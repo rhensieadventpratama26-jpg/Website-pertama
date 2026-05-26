@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap" rel="stylesheet">
 
     <style>
-        /* 2. MENGGANTI WARNA BACKGROUND (Warna Dark Mode / Off-Black yang nyaman di mata) */
+        /* WARNA BACKGROUND & TEXT */
         body {
             background-color: #0d0e11; 
             color: #ffffff;
@@ -25,20 +25,18 @@
             text-align: center;
         }
 
-        /* Desain Box Kontainer biar kelihatan rapi */
         .container {
             max-width: 90%;
             width: 400px;
             padding: 20px;
         }
 
-        /* Gaya teks judul (Bold banget khas Gen Z/Modern Brand) */
+        /* GAYA TULISAN JUDUL */
         h1 {
             font-size: 2.5rem;
             font-weight: 800;
             letter-spacing: -1px;
             margin-bottom: 10px;
-            /* Efek warna teks gradasi */
             background: linear-gradient(to right, #ff7e5f, #feb47b);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -51,14 +49,26 @@
             margin-bottom: 25px;
         }
 
-        /* 3. MENGATUR TAMPILAN FOTO AGAR ESTETIK */
+        /* GAYA FOTO */
         .aesthetic-img {
             width: 100%;
             height: 250px;
-            object-fit: cover; /* Biar foto otomatis terpotong rapi gaperlu crop manual */
-            border-radius: 16px; /* Sudut foto melengkung halus */
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Efek bayangan biar foto kelihatan timbul */
+            object-fit: cover; 
+            border-radius: 16px; 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
             border: 1px solid #2d3748;
+        }
+
+        /* GAYA TOMBOL PUTIH */
+        .btn-link {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 28px;
+            background: #ffffff; 
+            color: #0d0e11;      
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px; 
         }
     </style>
 </head>
@@ -66,10 +76,11 @@
 
     <div class="container">
         <h1>Future is Now.</h1>
-        
         <p>Bikin website keren bermodalkan HP doang? Bisa banget. Ini buktinya, dibikin pakai Acode dan langsung live di Vercel.</p>
         
         <img class="aesthetic-img" src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=500" alt="Aesthetic Setup">
+        
+        <a href="https://instagram.com/rhensie" class="btn-link">Hubungi Saya</a>
     </div>
 
 </body>
